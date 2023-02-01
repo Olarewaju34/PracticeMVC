@@ -1,0 +1,26 @@
+@model PracticeMVC.Models.Student
+
+<div>
+    @ViewBag.Header
+        <table class="table table-bordered table-primary 6able-striped" >
+            <thead>
+                <tr>
+                    <td>Id</td>
+                    <td>FirstName</td>
+                    <td>LastName</td>
+                    <td>Age</td>
+            
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.Id</td>
+                    <td>@Model.FirstName</td>
+                    <td>@Model.LastName</td>
+                    <td>@Model.Age</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </div>
